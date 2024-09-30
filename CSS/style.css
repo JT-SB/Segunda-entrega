@@ -1,0 +1,154 @@
+/* funte importada de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* formatear html */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+/* estilo del header */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #fa0909; */
+}
+/* estilos barra de navegacion */
+.header .login {
+    color: #96BB7C;
+    text-decoration: none;
+    padding-right: 50px;
+    /* background-color: rgb(255, 85, 0); */
+}
+
+/* estilos barra de navegacion */
+.header .join-us{
+    color: #ffffff;
+    background: #96BB7C;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    /* border: 5px solid #04f023;    */
+}
+
+/* estilo del contenedor1 */
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #DDF4FF;
+    padding: 95px 0px 0px 0px;
+    /* background-color: #fa0909; */
+}
+
+/* estilos bloque 25k+students */
+.container1 .bloque1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 400px 200px;
+    gap: 30px;
+    width: 593px;
+    height: 386px;
+    /* background-color: #fa0909; */
+}
+
+.container1 h1 {
+    font-size: 47px;
+}
+
+.sub-blok1 {
+    font-weight: bold;
+    color: #96BB7C;
+    /* border: 5px solid rgb(255, 0, 0); */
+}
+
+.sub-blok2 {
+    width: 360px;
+    color: #737373;
+}
+
+.container1 .boton-get {
+    color: #ffffff;
+    background: #96BB7C;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.container1 .boton-learn {
+    color: #96BB7C;
+    background: #DDF4FF;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 1px solid #96BB7C;
+}
+
+
+/* estilo contenedor 2 */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    height: 264px;
+    padding: 0px 195px 0px 195px;
+    background-color: #ffffff;
+}
+
+.container2 h2 {
+    color: #96BB7C;
+    font-size: 45px;
+}
+
+/* estilo contenedor 3 */
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    background-color: #fff2f3;
+    gap: 30px;
+    height: 718px;
+}
+
+.container3 .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 328px;
+    height: 268px; 
+}
+
+.Barra {
+    color: #E74040;
+    font-weight:900;
+}
+
+/* estilo imagen de las tarjetas */
+.container3 .card img {
+    width: 72px;
+    margin-bottom: 30px;
+}
+
+/* estilo del footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20PX;
+    align-items: center;
+    font-size: 14px;
+}
